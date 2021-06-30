@@ -1,0 +1,102 @@
+/*gerais*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+}
+#barraUp{
+    background-color: rgb(20, 132, 150);
+    max-height: 60px;
+    margin-bottom: 0px;
+}
+#menu, #conteudo{
+    margin-top: 0px;
+    height: 91vh;
+}
+#menu{
+    padding: 0px;
+}
+.adminbutton{
+    border: none;
+    border-bottom: solid 0.20px rgb(20, 132, 150);
+    height: 140px;
+}
+#welcome,.consultas,.adminbutton{
+    background-color: rgb(23, 162, 184);
+}
+.consultas, .adminbutton{
+    text-align: center;
+}
+.adminbutton:hover, .consultas:hover{
+    background-color:rgb(20, 132, 150);
+}
+/*home*/
+#welcome{
+    padding-top: 150px;
+    box-sizing: border-box;
+    height: 400px;
+    color:rgb(255, 255, 255);
+    border-radius: 50px;
+    top: 15%;
+}
+body{
+    overflow: auto;
+    background-color: rgb(248, 249, 250);
+}
+/*consultas*/
+#consul{
+    margin-top: 170px;
+}
+.consultas{
+    height: 200px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+th{
+    text-align: center;
+}
+
+/*usuario*/
+#ver, #cadastrar{
+    margin-right: auto;
+    margin-left: auto;
+}
+#ver{
+    margin-right: -100px;
+}
+
+/*usuario*cadastro*/
+#cadastro,.cadastro-campos{
+    margin-right: auto;
+    margin-left: auto;
+}
+.cadastro-campos{
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+}
+#cadastro{
+    padding-top:20px;
+    margin-top: 12%;
+    border-radius:15px;
+    background-color: rgb(23, 162, 184, 0.34);
+    min-height:300px;
+    max-height:max-content;
+}
+.cadastro-campos,.botao{
+    margin-bottom:10px;
+}
+.botao{
+    border-radius:15px;
+    border: none;
+    width:100px;
+    height: 35px;
+    margin-top: 20px;
+    color: rgb(212, 212, 212);
+    background-color: rgb(23, 162, 184);
+}
+.botao:hover{
+    color: rgb(255, 255, 255);
+}

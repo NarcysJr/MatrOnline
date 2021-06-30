@@ -1,0 +1,127 @@
+/*Gerais*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact-box{
+    margin-top: 10px;
+}
+
+#corpo,#sec{
+    min-height:600px;
+    max-height: max-content;
+}
+.imagemHeader{
+    background-color: rgb(20, 132, 150);
+}
+nav{
+    background-color: rgb(23, 162, 184);
+}
+.footer{
+padding: 25px;
+min-height: 300px;
+max-height: max-content;
+background-color: rgb(20, 132, 150);
+color: rgb(212, 212, 212);
+}
+section{
+    text-align: justify;
+}
+/*inicio*/
+main{
+    padding-top: 30px;
+}/*
+#propaganda{
+    padding-top: 60px;
+}*/
+h3{
+    color: rgb(23, 162, 184);
+}
+#h-inicio{
+    margin-bottom: 100px;
+}
+h3,#h-inicio{
+    text-align: center;
+}
+.p-inicio{
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(20, 132, 150);
+}
+#corpo{
+    background-image: url(../imagens/body.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+    background-position-x: 80px;
+}
+
+@media (max-width:425px){
+    main{
+        width: 100%;
+        border: none;
+    }
+    #propaganda{
+        width: 0px;
+        display: none;
+    }
+}
+/*cursos*/
+.cursoimagem{
+    height: 300px;
+}
+.titulo{
+    margin-top: 30px;
+}
+.descricao{
+    margin-top: 7px;
+}
+/*matrícula*/
+fieldset{
+    height: auto;
+    min-height: 700px;
+    padding-top: 30px;
+    background-color:rgba(249, 249, 249, 0.884);
+}
+.campos{
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+}
+#fundo{
+    background-image: url(../imagens/matricula-background.jpg);
+}
+#carregar{
+    cursor:pointer;
+    border-radius: 50px;
+}
+.error-validation{
+    font-size: 12px;
+    color: rgb(252, 62, 62);
+}
+.template{
+    display:none;
+}
+.botao{
+    border-radius:15px;
+    border: none;
+    width:100px;
+    height: 35px;
+    margin-top: 20px;
+    color: rgb(212, 212, 212);
+    background-color: rgb(23, 162, 184);
+}
+.botao:hover{
+    color: rgb(255, 255, 255);
+}
+/*modal*/
+.formodal{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgb(23, 162, 184);
+}
+.formodal:focus{
+    border-bottom: 2px solid rgb(20, 132, 150);
+}
